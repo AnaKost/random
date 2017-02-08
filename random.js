@@ -27,8 +27,8 @@ function createFirstScene() {
     makeCircle(150,30,5,"#ffffff",0.15)
     makeCircle(150,30,2,"#ffffff",0.40)
     makeCircle(150,30,1,"#ffffff",1)
-    makeCircle()
-    makeCircle()
+    makeCircle(70,200,5,"#ffffff",0.30)
+    makeCircle(70,200,1,"#ffffff",1)
     makeCircle(100,50,13,"#ebebb7",1)
     makeCircle(100,50,12,"#efefc3",1)
 }
@@ -38,7 +38,23 @@ function createFirstScene() {
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createSecondScene() {
-    makeRect(50,50,10,10,"#669999",1)
+    makeImage("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSXmQJpOhEIFi9bH3TzNcraTEOd_oVFELdEctL7APyQS42CE1yy", 50, 100, 200, 100)
+    makeRect(76,45,10,10,"#333333",1)
+    makeRect(114,45,10,10,"#333333",1)
+    makeEllipse(85,70,5,15,"#4d4d4d",1)
+    makeEllipse(100,70,5,15,"#333333",1)
+    makeEllipse(114,70,5,15,"#4d4d4d",1)
+    makeEllipse(100,50,20,30,"#737373",1)
+    makeCircle(100,50,18,"#333333",1)
+    makeCircle(100,50,15,"#a3c2c2",1)
+    makeCircle(100,50,13,"#ebebb7",1)
+    makeCircle(100,50,12,"#efefc3",1)
+    makeCircle(90,80,15,"#d9d9d9",0.25)
+    makeCircle(105,85,16,"#d9d9d9",0.20)
+    makeCircle(100,120,45,"#b32d00",1)
+    makeCircle(95,85,8,"#802000",0.35)
+    makeCircle(84,90,4,"#802000",0.35)
+   
 }
 
 
@@ -46,7 +62,17 @@ function createSecondScene() {
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createThirdScene() {
-    makeCircle(50,50,10,"#993333",1)
+    
+    makeRect(76,45,10,10,"#333333",1)
+    makeRect(114,45,10,10,"#333333",1)
+    makeEllipse(85,70,5,15,"#40ff00",1)
+    makeEllipse(100,70,5,15,"#33cc00",1)
+    makeEllipse(114,70,5,15,"#40ff00",1)
+    makeEllipse(100,50,20,30,"#737373",1)
+    makeCircle(100,50,18,"#333333",1)
+    makeCircle(100,50,15,"#a3c2c2",1)
+    makeCircle(100,50,13,"#ebebb7",1)
+    makeCircle(100,50,12,"#efefc3",1)
 }
 
 
