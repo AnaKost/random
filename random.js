@@ -38,7 +38,7 @@ function createFirstScene() {
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createSecondScene() {
-    makeImage("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSXmQJpOhEIFi9bH3TzNcraTEOd_oVFELdEctL7APyQS42CE1yy", 50, 100, 200, 100)
+   makeImage("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSXmQJpOhEIFi9bH3TzNcraTEOd_oVFELdEctL7APyQS42CE1yy",0,0,200,100)
     makeRect(76,45,10,10,"#333333",1)
     makeRect(114,45,10,10,"#333333",1)
     makeEllipse(85,70,5,15,"#4d4d4d",1)
@@ -54,6 +54,7 @@ function createSecondScene() {
     makeCircle(100,120,45,"#b32d00",1)
     makeCircle(95,85,8,"#802000",0.35)
     makeCircle(84,90,4,"#802000",0.35)
+     
    
 }
 
