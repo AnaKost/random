@@ -5,6 +5,8 @@ var namespace = "http://www.w3.org/2000/svg"
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createFirstScene() {
+    var number = Math.random()
+    if (number < 0.4){
     makeRect(76,45,10,10,"#333333",1)
     makeRect(114,45,10,10,"#333333",1)
     makeEllipse(85,70,5,15,"#4d4d4d",1)
@@ -31,14 +33,43 @@ function createFirstScene() {
     makeCircle(70,200,1,"#ffffff",1)
     makeCircle(100,50,13,"#ebebb7",1)
     makeCircle(100,50,12,"#efefc3",1)
+    }else{
+        makeRect(76,45,10,10,"#ff0000",1)
+    makeRect(114,45,10,10,"#ff0000",1)
+    makeEllipse(85,70,5,15,"#4d4d4d",1)
+    makeEllipse(100,70,5,15,"#ffff00",1)
+    makeEllipse(114,70,5,15,"#4d4d4d",1)
+    makeEllipse(100,50,20,30,"#0000cc",1)
+    makeCircle(100,50,18,"#333333",1)
+    makeCircle(100,50,15,"#a3c2c2",1)
+    makeCircle(20,20,10,"#ffffff",0.15)
+    makeCircle(20,20,5,"#ffffff",0.20)
+    makeCircle(20,20,1,"#ffffff",1)
+    makeCircle(40,50,1,"#ffffff",1)
+    makeCircle(40,50,5,"#ffffff",0.30)
+    makeCircle(70,80,1,"#ffffff",1)
+    makeCircle(70,80,3,"#ffffff",0.10)
+    makeCircle(5,90,4,"#ffffff",0.30)
+    makeCircle(5,90,1,"#ffffff",1)
+    makeCircle(100,10,6,"#ffffff",0.26)
+    makeCircle(100,10,2,"#ffffff",1)
+    makeCircle(150,30,5,"#ffffff",0.15)
+    makeCircle(150,30,2,"#ffffff",0.40)
+    makeCircle(150,30,1,"#ffffff",1)
+    makeCircle(70,200,5,"#ffffff",0.30)
+    makeCircle(70,200,1,"#ffffff",1)
+    makeCircle(100,50,13,"#ebebb7",1)
+    makeCircle(100,50,12,"#efefc3",1)
 }
-
+}
 
 // Fill in this function so that it draws something using SVG shapes!
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createSecondScene() {
-   makeImage("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSXmQJpOhEIFi9bH3TzNcraTEOd_oVFELdEctL7APyQS42CE1yy",0,0,200,100)
+    var spaceShip = Math.random()
+    if(spaceShip < 0.2){
+   makeImage("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSXmQJpOhEIFi9bH3TzNcraTEOd_oVFELdEctL7APyQS42CE1yy",0,0,259,194)
     makeRect(76,45,10,10,"#333333",1)
     makeRect(114,45,10,10,"#333333",1)
     makeEllipse(85,70,5,15,"#4d4d4d",1)
@@ -54,18 +85,34 @@ function createSecondScene() {
     makeCircle(100,120,45,"#b32d00",1)
     makeCircle(95,85,8,"#802000",0.35)
     makeCircle(84,90,4,"#802000",0.35)
-     
-   
+    }else{
+    makeRect(76,45,10,10,"#333333",1)
+    makeRect(114,45,10,10,"#333333",1)
+    makeEllipse(85,70,5,15,"#4d4d4d",1)
+    makeEllipse(100,70,5,15,"#333333",1)
+    makeEllipse(114,70,5,15,"#4d4d4d",1)
+    makeEllipse(100,50,20,30,"#737373",1)
+    makeCircle(100,50,18,"#333333",1)
+    makeCircle(100,50,15,"#a3c2c2",1)
+    makeCircle(100,50,13,"#ebebb7",1)
+    makeCircle(100,50,12,"#efefc3",1)
+    makeCircle(90,80,15,"#d9d9d9",0.25)
+    makeCircle(105,85,16,"#d9d9d9",0.20)
+    makeCircle(100,120,45,"#0066cc",1)
+    makeCircle(95,85,8,"#339933",1)
+    makeCircle(84,90,4,"#339933",1)
 }
-
+}
 
 // Fill in this function so that it draws something using SVG shapes!
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createThirdScene() {
-    
-    makeRect(76,45,10,10,"#333333",1)
-    makeRect(114,45,10,10,"#333333",1)
+    var alienHello = Math.random()
+    if(alienHello < 0.5){
+    makeImage("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS-zcIh1pmtNCdrpvgES-Xq1a3V1PdA0ThfVdMaS6AlHjznbwhi",0,0,284,177)
+    makeRect(76,45,10,10,"#40ff00",1)
+    makeRect(114,45,10,10,"#40ff00",1)
     makeEllipse(85,70,5,15,"#40ff00",1)
     makeEllipse(100,70,5,15,"#33cc00",1)
     makeEllipse(114,70,5,15,"#40ff00",1)
@@ -74,8 +121,20 @@ function createThirdScene() {
     makeCircle(100,50,15,"#a3c2c2",1)
     makeCircle(100,50,13,"#ebebb7",1)
     makeCircle(100,50,12,"#efefc3",1)
+ }else{
+    makeRect(76,45,10,10,"#40ff00",1)
+    makeRect(114,45,10,10,"#40ff00",1)
+    makeEllipse(85,70,5,15,"#40ff00",1)
+    makeEllipse(100,70,5,15,"#33cc00",1)
+    makeEllipse(114,70,5,15,"#40ff00",1)
+    makeEllipse(100,50,20,30,"#737373",1)
+    makeCircle(100,50,18,"#333333",1)
+    makeCircle(100,50,15,"#a3c2c2",1)
+    makeCircle(100,50,13,"#b366ff",1)
+    makeCircle(100,50,12,"#cc99ff",1)
+    makeCircle(90,50,2,"#26004d",1)
 }
-
+}
 
 
 
