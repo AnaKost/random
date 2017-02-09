@@ -122,6 +122,7 @@ function createThirdScene() {
     makeCircle(100,50,13,"#ebebb7",1)
     makeCircle(100,50,12,"#efefc3",1)
  }else{
+    makeRect(90,70,20,40,"#ffff66",0.30)
     makeRect(76,45,10,10,"#40ff00",1)
     makeRect(114,45,10,10,"#40ff00",1)
     makeEllipse(85,70,5,15,"#40ff00",1)
@@ -132,7 +133,8 @@ function createThirdScene() {
     makeCircle(100,50,15,"#a3c2c2",1)
     makeCircle(100,50,13,"#b366ff",1)
     makeCircle(100,50,12,"#cc99ff",1)
-    makeCircle(90,50,2,"#26004d",1)
+    makeCircle(95,50,3,"#26004d",1)
+    makeCircle(105,50,3,"#26004d",1)
 }
 }
 
